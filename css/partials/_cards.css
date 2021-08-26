@@ -1,0 +1,49 @@
+section#cards{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  border: 1px solid darkolivegreen;
+
+}
+
+.card {
+  margin: 15px;
+  padding: 15px;
+  height: 350px;
+  width: 220px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.card:hover{
+  box-shadow: -8px 8px 2px rgba(149, 149, 149, 0.637);
+}
+
+.cards-header {
+  font-size: 18px;
+  color: darkolivegreen;
+  border: 1px solid darkolivegreen;
+  margin-top: 100px !important;
+  padding: 15px;
+  text-align: center;
+  border-bottom: none;
+}
+
+.card figure{
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card figcaption{
+  font-size: 25px;  
+}
+
+/* .card a{
+  text-decoration: none;
+  text-align: center;
+} */

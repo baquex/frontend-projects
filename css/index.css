@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');/*font-family: 'Montserrat', sans-serif;*/
+@import './partials/_header.css';
+@import './partials/_cards.css';
+@import './partials/_footer.css';
+
+
+/*this first part resets all default browser margins*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; /*keeps divs from going "outside" their own box*/
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+body {
+  padding: 15px 0 0 0;
+}
+
+
+

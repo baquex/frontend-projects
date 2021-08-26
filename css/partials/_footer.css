@@ -1,0 +1,8 @@
+footer {
+  margin-top: 100px;
+}
+
+footer > div {
+  background-color: darkolivegreen;
+  height: 100px;
+}

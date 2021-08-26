@@ -1,0 +1,32 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px;
+  color: rgb(97, 110, 108);
+}
+
+figure img {
+  max-height: 150px;
+}
+
+header ul{
+  display: flex;
+  align-items: center;
+}
+
+header li{
+  display: inline;
+  margin: 0 25px;
+}
+header li:hover {
+  border-bottom: solid 5px;
+  border-bottom-color: rgb(173, 189, 189);
+}
+
+#menu a{
+  text-decoration: none;
+}
