@@ -23,10 +23,16 @@ header li{
   margin: 0 25px;
 }
 header li:hover {
+  text-decoration: none;
   border-bottom: solid 5px;
   border-bottom-color: rgb(173, 189, 189);
 }
 
 #menu a{
   text-decoration: none;
+}
+
+#menu a:visited{
+  text-decoration: none;
+  color: rgb(97, 110, 108);
 }

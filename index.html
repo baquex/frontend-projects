@@ -2,7 +2,6 @@
   <head>
     <title>FrontEnd Projects</title>
     <link rel="stylesheet" href="./css/index.css">
-    <script src="./js/index.js"></script>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
   </head>
@@ -11,40 +10,40 @@
       <figure>
         <img src="./imgs/logo.jpg" alt="FE Projects Logo">
       </figure>
-      <nav>
+      <nav id="menu">
         <ul>
           <a href="./index.html"><li>Home</li></a>
-          <li>About</li>
+          <a href="./index.html"><li>About</li></a>
           <a href="./index.html"><li>Games</li></a>
-          <li>Contact</li>
+          <a href="./index.html"><li>Contact</li></a>
         </ul>
       </nav>
     </header>
 
     <main>
-      <div class="container cards-header">
+      <div class="container" id="cards-header">
         <h2>Click on the following cards to start</h2>
       </div>
       <section class="container" id="cards">
-        <div class="card">
+        <div class="card" name="ttt">
           <figure>
             <img src="./imgs/tictactoe.png" alt="tictactoe">
           </figure>
           <figcaption>Tic Tac Toe</figcaption>
         </div>
-        <div class="card">
+        <div class="card" name="pairs">
           <figure>
             <img src="./imgs/pairs.jpg" alt="finding pairs">
           </figure>
           <figcaption>Finding Pairs</figcaption>
         </div>
-        <div class="card">
+        <div class="card" name="calc">
           <figure>
             <img src="./imgs/calc.jpg" alt="calculator">
           </figure>
           <figcaption>Calculator</figcaption>
         </div>
-        <div class="card">
+        <div class="card" name="pokes">
           <figure>
             <img src="./imgs/pokes.png" alt="calculator">
           </figure>
@@ -59,6 +58,6 @@
         <h2>footer</h2>
       </div>
     </footer>
-    
+    <script src="./js/index.js"></script>
   </body>
 </html>
