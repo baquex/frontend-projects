@@ -9,6 +9,7 @@ class ProjectLauncher {
 
   createLauncher(){
     console.log('###  BEGIN LAUNCHING THE LAUNCHER  ###');
+    console.log(this.el.attributes.getNamedItem("name").value);
     let parentEl = this.el.parentNode;
     parentEl.innerHTML = "";
 
@@ -44,5 +45,10 @@ for(card of cards){
   if (type == "pokes"){
     console.log("initiate pokie");
     const launcher = new ProjectLauncher(card);
+  }else if( type == "tictac"){
+    console.log("initiate tictactoe");
+    const launcher = new ProjectLauncher(card);
   }
+
+
 }

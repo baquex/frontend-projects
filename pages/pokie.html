@@ -1,7 +1,7 @@
 <html>
   <head>
     <title>FrontEnd Projects | Pokemon</title>
-    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/pokies.css">
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
   </head>
@@ -21,9 +21,22 @@
     </header>
 
     <main>
-      <div class="container">
-        pokies go here
-      </div>        
+      <section id="error-section" class="container hidden">
+        error
+      </section>
+      <section id="search-section" class="container">
+        <!-- <label for="search"></label> -->
+        <input type="text" name="search" id="search-input" placeholder="Search by Name or ID: ">
+      </section>
+      <section id="cards" class="container pokie-container">
+        <div id="poki-card" class="card" name="pokes">
+          <figure>
+            <img id="card-img" src="../imgs/pokes.png" alt="pokie">
+          </figure>
+          <figcaption id="caption-name">Pika</figcaption>
+        </div>
+        <h4>Click the card for a random Pokemon</h4>
+      </section>        
     </main>
 
     <footer>
@@ -31,6 +44,6 @@
         <h2>footer</h2>
       </div>
     </footer>
-    <script src="./js/index.js"></script>
+    <script src="../js/pokie.js"></script>
   </body>
 </html>
